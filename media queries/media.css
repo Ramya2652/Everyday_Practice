@@ -1,0 +1,59 @@
+p{
+    font-size: x-large;
+    color: black;
+    background-color: yellow;
+    border: 5px solid brown ;
+
+}
+ .html
+{
+    visibility: hidden;
+
+}
+.css
+{
+    visibility: hidden;
+
+}
+.js
+{
+    visibility: hidden;
+
+}
+.react
+{
+    visibility: hidden;
+
+}
+@media (min-width:201px) and (max-width:300px)
+{
+    p, .html{
+        color: blue;
+        background-color:brown; 
+        visibility: visible;
+    }
+}
+@media (min-width:301px) and (max-width:400px)
+{
+    p, .css{
+        color:blue;
+        background-color: brown;
+        visibility: visible;
+    }
+}
+@media (min-width:401px) and (max-width:500px)
+{
+    p, .js{
+        color:blue;
+        background-color: brown;
+        visibility: visible;
+    }
+}
+@media (min-width:501px) and (max-width:600px)
+{
+    p, .react{
+        color:blue;
+        background-color: brown;
+        visibility: visible;
+    }
+}
